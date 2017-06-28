@@ -3,7 +3,7 @@
 [webpacker](https://github.com/rails/webpacker) generates an webpack config
 which contains huge number of file extensions in `resolve.exntentions`.
 
-This cause significant build time increase and make webpacker unuseful.
+This causes significant build time increase and makes webpacker unuseful.
 
 ## with 2 extentions: 4 seconds
 
