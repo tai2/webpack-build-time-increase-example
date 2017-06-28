@@ -1,0 +1,19 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build:dev": "NODE_ENV=development webpack --config webpack/dev.js"
+  },
+  "author": "tai2",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
