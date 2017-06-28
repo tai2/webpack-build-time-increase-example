@@ -27,9 +27,9 @@ module.exports = {
             'node_modules',
             'src',
         ],
-        extensions: ['.js', '.jsx'],
+        //extensions: ['.js', '.jsx'],
         // Below is webpacker's default
-        //extensions: ['.coffee', '.js', '.jsx', '.erb', '.jpg', '.jpeg', '.png', '.css', '.sass', '.scss', '.gif', '.svg', '.vue'],
+        extensions: ['.coffee', '.js', '.jsx', '.erb', '.jpg', '.jpeg', '.png', '.css', '.sass', '.scss', '.gif', '.svg', '.vue'],
     },
     devServer: {
         hot: true,
